@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -namedepth *.js -delete
+find . -name '*.js' -exect rm {} \;

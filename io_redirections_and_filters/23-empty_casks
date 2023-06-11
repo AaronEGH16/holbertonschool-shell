@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f,d -empty | tr -d . | tr / .
+find . -type f,d -empty | tr ./*/ .

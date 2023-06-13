@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '$(($bestchol#$((%'$water'u + %'$stir'u))))' $WATER $STIR
+printf '$(($bestchol#$((%'$water'u + %'$stir'u))))' ${WATER} ${STIR}
